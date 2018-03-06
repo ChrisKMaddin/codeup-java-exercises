@@ -26,6 +26,7 @@ public class ServerNameGenerator {
     }
 }
 
+
 //Instructors Solution
 
 //import java.util.Random;
