@@ -33,10 +33,17 @@ public class Input {
     }
 
     public int getInt() {
-        return scan.nextInt();
-    }
+        try {
+            int input = Integer.valueOf(getString());
+            return input;
+        } catch (NumberFormatException e) {
+            System.out.println(e.getMessage());
+            System.out.println("Hey! Don't be a monkey! That is mos-def not an integer! Please try again.");
+            return getInt();
+        }
 
-    public int getInt(String prompt) {
+    }
+        public int getInt(String prompt) {
         System.out.println(prompt);
         return getInt();
     }
@@ -56,7 +63,15 @@ public class Input {
     }
 
     public double getDouble() {
-        return scan.nextDouble();
+        try{
+            double input = Double.valueOf(getString());
+            return input;
+        }catch(NumberFormatException ex){
+            System.out.println(ex.getMessage());
+            System.out.println("That's not an double! Try again.");
+            return getDouble();
+        }
+
     }
 
     public double getDouble(String prompt) {
