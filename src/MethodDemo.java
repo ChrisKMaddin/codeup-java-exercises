@@ -20,7 +20,7 @@ public class MethodDemo {
         changeTo10(myNum);
 
         System.out.println(myNum);
-    }
+        }
 
     public static int changeTo10(int num) {
         num = 10;
