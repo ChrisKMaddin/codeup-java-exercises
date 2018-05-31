@@ -28,6 +28,6 @@ public class StringDemo {
         System.out.println(babyTalk);
 
 
-        System.out.println("    trim removes whitspace      ".trim());
+        System.out.println("trim      removes whitespace      ".trim());
     }
 }
