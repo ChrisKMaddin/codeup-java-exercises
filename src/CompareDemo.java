@@ -7,7 +7,7 @@ public class CompareDemo {
         String compareName = scan.next();
 
         if(name.equalsIgnoreCase(compareName)) {
-            System.out.println("Hi Ryan");
+            System.out.println("Hiya Georgie");
         } else {
             System.out.println("Hello, whoever you are!");
         }

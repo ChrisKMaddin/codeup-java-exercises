@@ -26,7 +26,8 @@ public class ConsoleExercises {
         double length = Double.parseDouble(scanner.nextLine());
 
 
-        }
+
+    }
 }
 
 
