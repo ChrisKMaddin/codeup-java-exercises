@@ -19,6 +19,7 @@ public class Bob {
                 System.out.println("Whatever.");
             }
 
+
             System.out.println("Would you like to say something else to Bob? Press y for yes.");
             userChoice = scan.nextLine();
         } while(userChoice.equals("y"));
