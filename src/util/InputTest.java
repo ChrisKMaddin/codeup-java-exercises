@@ -17,7 +17,7 @@ public class InputTest {
         }
 
         if(input.yesNo("Wanna enter an integer?")) {
-            int num3 = input.getInt("Please enter  any integer");
+            int num3 = input.getInt("Please enter any integer");
             System.out.println("You entered: " + num3);
         }
 

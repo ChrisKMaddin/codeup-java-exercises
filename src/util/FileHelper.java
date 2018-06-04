@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileHelper {
-
     public static void main(String[] args) throws IOException {
 //        makeExciting("src/util/FileHelper.java");
     }
