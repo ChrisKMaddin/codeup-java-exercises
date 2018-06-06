@@ -4,9 +4,7 @@ import java.util.HashMap;
 import util.Input;
 
 public class GradesApplication {
-
     public static Input input = new Input();
-
     public static void main(String[] args) {
 
         System.out.println("Welcome to the grades application!");
